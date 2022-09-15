@@ -19,7 +19,7 @@ const app = express();
 // const mongoURI = `mongodb://127.0.0.1:27017/tutorial`;
 
 // for serverside db
-const mongoURI = `mongodb+srv://ayushman_verma:Lion8883@cluster0.1tsgngu.mongodb.net/tutorial?retryWrites=true&w=majority`;
+const mongoURI = ``;
 
 const store = new mongoDBSession({
     uri: mongoURI,
