@@ -1,0 +1,41 @@
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    background-image: url("../image/01.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.display-1{
+    color: white;
+    margin: 2vw;
+}
+
+.container {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.list-group-item {
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+    width: 80vw;
+}
+
+.container-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5vw 10vw 5vw 10vw;
+    width: 80vw;
+}

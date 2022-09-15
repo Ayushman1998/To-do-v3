@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+    <script src="js/registerBrowser.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" class="form" action="/register" method="post">
+            <h2>Register</h2>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter phone">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Enter password again">
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
